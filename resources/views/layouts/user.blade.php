@@ -89,11 +89,6 @@
 
   </main>
 
-  <a href="https://api.whatsapp.com/send?phone=6281328283875&text=&source=&data=&app_absent=" target="_blank"
-    class="float">
-    <i class="fab fa-whatsapp fa-3x my-float" aria-hidden="true"></i>
-  </a>
-
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -145,7 +140,7 @@
 
     <div class="container">
       <div class="copyright">
-        Copyright &copy;2021 All Rights Reserved TOUCHÉ
+        Copyright &copy;2021 All Rights Reserved PT. Putra Pataka Nuswantara
       </div>
       <div class="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
