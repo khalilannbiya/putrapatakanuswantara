@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Touché Development Center</title>
+  <title>PT. Putra Pataka Nuswantara</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="{{asset('user/images/logo.png')}}" rel="icon">
-  <link href="{{asset('user/images/logo.png')}}" rel="apple-touch-icon">
+  <link href="{{asset('user/images/logo-ppn.png')}}" rel="icon">
+  <link href="{{asset('user/images/logo-ppn.png')}}" rel="apple-touch-icon">
 
   {{-- Remix Icon --}}
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -60,7 +60,7 @@
 
       <div id="logo" class="pull-left">
         <a href="/home">
-          <img src="{{asset('user/images/logo.png')}}"></img>
+          <img src="{{asset('user/images/logo-ppn.png')}}"></img>
         </a>
       </div>
 

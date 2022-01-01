@@ -10,7 +10,9 @@
   }
 
   #hero {
-    background: url('{{asset('user/images/background.jpg')}}') top center;
+    background: url('{{asset('user/images/background.png')}}') top center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .image-center {
@@ -23,7 +25,7 @@
 @endsection
 
 @section('hero')
-<h1>TOUCHÉ Development Center</h1>
+<h1>putra pataka nuswantara</h1>
 <h2>Touching People</h2>
 <a href="#testimonials" class="btn-get-started">
   TESTIMONIALS</a>
