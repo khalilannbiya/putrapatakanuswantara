@@ -1373,8 +1373,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team {
     margin-top: -48px;
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding: 60px 90px 90px 90px;
     background-color: #f7f7f7;
 }
 .card-box h4 {
@@ -1459,6 +1458,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-box-shadow: 1px 1px 21px 3px rgb(233, 229, 204);
     transform: scale(1.05);
 }
+
+/* section visi misi */
+.vision p, .mission p, .history{
+   text-align: justify;
+}
+
+/* section history */
+
+.history-section{
+    background-color: #fdfdfd !important;
+}
+
+/* Section Struktur organisasi */
+.struktur-organisasi{
+    width: 50vw;
+}
+.flex__organisasi{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Mobile Device */
 
@@ -1725,5 +1745,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     #category .container .section-header {
         margin-left: -5px;
+    }
+
+    /* Section Visi & Misi */
+    #team{
+        padding:90px 10vw 90px 10vw ;
+    }
+    .vision h2, .mission h2 {
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    .vision p, .mission p, .history p{
+        font-size: 2.5vw;
+        line-height: 2;
     }
 }

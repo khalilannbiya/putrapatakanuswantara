@@ -68,7 +68,7 @@
         <ul class="nav-menu">
           <li class="{{$url=='home'?'menu-active':''}}"><a href="{{url('home')}}">Home</a></li>
           <li class="{{$url=='article'?'menu-active':''}}"><a href="{{url('article')}}">Articles</a></li>
-          <li class="{{$url=='services'?'menu-active':''}}"><a href="{{url('services')}}">Services</a></li>
+          <li class="{{$url=='services'?'menu-active':''}}"><a href="{{url('services')}}">Profile</a></li>
           <li class="{{$url=='contact'?'menu-active':''}}"><a href="{{url('contact')}}">Contact </a></li>
           {{-- <li class="{{$url=='contact'?'menu-active':''}}"><a href="{{url('contact')}}">Coba Artikel </a></li> --}}
         </ul>
