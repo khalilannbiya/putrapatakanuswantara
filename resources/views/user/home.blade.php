@@ -55,109 +55,51 @@
 <section id="services">
   <div class="container wow fadeIn">
     <div class="section-header">
-      <h3 class="section-title">Why Us?</h3>
-      <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque</p>
+      <h3 class="section-title">
+        Company Values</h3>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center value__company">
       <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
         <div class="box">
-          <div class="icon"><i class="fas fa-shield-alt"></i></div>
-          <h4 class="title">100% Confidential</h4>
-          <p class="description">TOUCHE dibangun berdasarkan kepercayaan. TOUCHE ingin klien aman dan nyaman untuk
-            berbagi bersama kami.</p>
+          <div class="icon"><i class="fa fa-user-md""></i></div>
+          <p class=" description">Dynamic and growth-oriented human resource development.</p>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="box">
-          <div class="icon"><i class="fa fa-user-md"></i></div>
-          <h4 class="title">Qualified Team</h4>
-          <p class="description">Klien ditangani hanya oleh profesional berlisensi, baik psikolog, konselor, terapis,
-            maupun trainer.</p>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-user-md"></i></div>
+            <p class="description">Compliance with existing rules</p>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="box">
-          <div class="icon"><i class="fa fa-thumbs-up"></i></div>
-          <h4 class="title">Individual Approach</h4>
-          <p class="description">Klien adalah prioritas utama TOUCHE. Perkembangan menuju diri yang optimal adalah
-            tujuan utama TOUCHE berdiri.</p>
-        </div>
-      </div>
-    </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-user-md""></i></div>
+          <p class=" description">With honesty and responsibility</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-user-md""></i></div>
+          <p class=" description">Teamwork and professional</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+              <div class="box">
+                <div class="icon"><i class="fa fa-user-md""></i></div>
+          <p class=" description">Always strive to make progress to achieve goals</p>
+                </div>
+              </div>
+            </div>
 
-  </div>
+          </div>
 </section>
 <!-- #services -->
-
-<!--========================== Call To Action Section ============================-->
-<section id="call-to-action">
-  <div class="container wow fadeIn">
-    <div class="row">
-      <div class="col-lg-9 text-center text-lg-left">
-        <h3 class="cta-title">Bergabung dan Berpetualang Bersama Artikel Kami</h3>
-        <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-          id est laborum.</p>
-      </div>
-      <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="/article">CONTACT</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--========================== Goals Section ============================-->
-<section id="services">
-  <div class="container wow fadeIn">
-    <div class="section-header">
-      <h3 class="section-title">Goals</h3>
-      <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque</p>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="box">
-          <div class="icon"><i class="ri-hand-heart-fill"></i></div>
-          <h4 class="title">To Cure</h4>
-          <p class="description">Memberikan layanan psikologi sebagai
-            proses healing klien yang sedang
-            mengalami permasalahan psikologis.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-        <div class="box">
-          <div class="icon"><i class="fa fa-user-md"></i></div>
-          <h4 class="title">To Prevent</h4>
-          <p class="description">Memberikan layanan psikologi untuk
-            menurunkan risiko atau mencegah
-            munculnya permasalahan mental atau
-            psikologis.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="box">
-          <div class="icon"><i class="fa fa-thumbs-up"></i></div>
-          <h4 class="title">To Promote</h4>
-          <p class="description">Membangun kesadaran masyarakat,
-            terutama anak muda mengenai
-            pentingnya kesehatan mental sebagai
-            bagian dari kesehatan holistik.</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-<!-- #Goals -->
 
 <!--========================== Article Section ============================-->
 <section id="article">
   <div class="container wow fadeInUp">
     <div class="section-header">
-      <h3 class="section-title">Our Articles</h3>
-      <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque</p>
+      <h3 class="section-title">article collection</h3>
     </div>
 
     <div class="row article-home">
@@ -181,74 +123,11 @@
   </div>
 
 </section>
-
-{{-- ========================= TESTIMONIALS =============================== --}}
-
-<section class="testimonials" id="testimonials">
-  <div class="container wow fadeIn">
-    <div class="section-header">
-      <h3 class="section-title">Testimonials</h3>
-      <p class="section-description">What Our Custumers Saying About Us</p>
-    </div>
-    <div id="carouselExampleCaptions" class="carousel slide text-center" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner text-center">
-        <div class="carousel-item text-center active">
-          <div class="card__testimoni text-center">
-            <div class="testimoni-header">
-              <img src="{{asset('user/images/boy-2.jpg')}}" alt="Foto Orang Testimoni" class="rounded-circle">
-            </div>
-            <div class="testimoni-body text-center">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, tempore id nulla suscipit ipsam, eum
-                facere ut, ea qui dolores eveniet iusto neque? Fuga modi nihil minus, inventore commodi molestiae!</p>
-            </div>
-            <div class="testimoni-footer d-md-block text-center">
-              <h4>Ramadhan Herdianto</h4>
-              <h6>Web Developer</h6>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card__testimoni">
-            <div class="testimoni-header">
-              <img src="{{asset('user/images/boy.jpg')}}" alt="Foto Orang Testimoni" class="rounded-circle">
-            </div>
-            <div class="testimoni-body text-center">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, tempore id nulla suscipit ipsam, eum
-                facere ut, ea qui dolores eveniet iusto neque? Fuga modi nihil minus, inventore commodi molestiae!</p>
-            </div>
-            <div class="testimoni-footer text-center">
-              <h4>Syeich Khalil Annbiya</h4>
-              <h6>Web Developer</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
-
-{{-- ========================= TESTIMONIALS =============================== --}}
-
 <!--========================== Gallery Section ============================-->
 <section id="category" style="padding-bottom:85px">
   <div class="container wow fadeInUp">
     <div class="section-header text-center">
       <h3 class="section-title">Gallery</h3>
-      <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque</p>
     </div>
 
     <div class="owl-carousel owl-theme justify-content-center">

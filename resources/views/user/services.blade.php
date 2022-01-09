@@ -22,14 +22,12 @@
 
 @section('content')
 
+{{-- Section Visi misi --}}
 <section id="team">
   <div class="justify-content-center">
     <div class="">
       <div class="section-header" style="padding-bottom: 10px;">
         <h1 class="section-title text-center mt-5" style="color:black">Vision And Mission</h1>
-        <p class="section-description pl-3 pr-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium
-          doloremque</p>
       </div>
       <div class="vision">
         <h2>Vision</h2>
@@ -65,9 +63,6 @@
     <div class="">
       <div class="section-header" style="padding-bottom: 10px;">
         <h1 class="section-title text-center mt-5" style="color:black">history</h1>
-        <p class="section-description pl-3 pr-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium
-          doloremque</p>
       </div>
       <div class="history">
         <p>PT. Putra Pataka Nuswantara adalah perusahaan jasa kontruksi yang bergerak dibidang penyediaan kontruksi
@@ -93,9 +88,6 @@
     <div class="">
       <div class="section-header" style="padding-bottom: 10px;">
         <h1 class="section-title text-center mt-5" style="color:black">Organizational Structure</h1>
-        <p class="section-description pl-3 pr-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium
-          doloremque</p>
       </div>
       <div class="flex__organisasi">
         <img class="struktur-organisasi" src=" {{ asset('user/images/organisasi.png') }}" alt="Struktur organisasi">

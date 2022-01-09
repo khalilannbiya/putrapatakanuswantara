@@ -7,6 +7,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +17,7 @@
 body {
     background: #fff;
     color: #666666;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* a {
@@ -47,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -181,6 +183,7 @@ h6 {
     /* ========= Why Us ======== */
     #services .container .row {
         padding-left: 15px;
+        margin-top: 5rem;
     }
 
     /* ========= Call To Action ======== */
@@ -265,10 +268,9 @@ h6 {
 }
 
 #hero .btn-get-started {
-    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 8px 28px;
@@ -280,8 +282,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-    background: #2dc997;
-    border: 2px solid #2dc997;
+    background: #B6CCFE;
+    border: 2px solid #B6CCFE;
 }
 
 /*--------------------------------------------------------------
@@ -335,10 +337,9 @@ h6 {
     text-decoration: none;
     display: inline-block;
     color: black;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 16px;
     outline: none;
 }
 
@@ -681,7 +682,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 50px;
     text-align: center;
     border: 1px solid #e6e6e6;
-    height: 200px;
+    height: 175px;
     position: relative;
     background: #fafafa;
 }
@@ -700,7 +701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     width: 72px;
     height: 72px;
-    background: #2dc997;
+    background: #B6CCFE;
 }
 
 #services .icon a {
@@ -767,6 +768,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .my-float {
     margin-top: 15px;
+}
+
+.value__company{
+    margin-top: 5rem;
 }
 
 /* Call To Action Section
@@ -1133,7 +1138,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 0;
     opacity: 0;
     padding: 18px 8%;
-    background-color: #e9e5cc;
+    background-color: #B6CCFE;
     transition: 0.8s ease;
 }
 
@@ -1463,6 +1468,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .vision p, .mission p, .history{
    text-align: justify;
 }
+.vision, .history, .flex__organisasi{
+    margin-top: 5rem;
+}
 
 /* section history */
 
@@ -1478,6 +1486,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: flex;
     justify-content: center;
 }
+
+
 
 
 /* Mobile Device */
@@ -1758,5 +1768,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     .vision p, .mission p, .history p{
         font-size: 2.5vw;
         line-height: 2;
+    }
+    .vision, .history, .flex__organisasi{
+        margin-top: 3rem;
     }
 }
