@@ -1166,7 +1166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
     font-size: 32px;
-    color: #978462;
+    color: #B6CCFE;
     float: left;
 }
 
@@ -1175,7 +1175,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 20px;
     line-height: 22px;
     font-size: 14px;
-    color: #978462;
+    color: black;
 }
 
 #contact .info .email p {
@@ -1256,6 +1256,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
     background: #51d8ad;
+}
+
+/* Maps */
+.maps__ppn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+#googleMap{
+    width: 80vw;
+    height: 40vw;
 }
 
 /*--------------------------------------------------------------
@@ -1771,5 +1782,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     .vision, .history, .flex__organisasi{
         margin-top: 3rem;
+    }
+
+    /* maps */
+    #googleMap{
+        width: 80vw;
+        height: 60vw;
     }
 }

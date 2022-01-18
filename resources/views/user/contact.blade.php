@@ -26,7 +26,9 @@
     </div>
   </div>
 
-  {{-- <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div> --}}
+  <div class="maps__ppn">
+    <div id="googleMap"></div>
+  </div>
 
   <div class="container wow fadeInUp">
     <div class="row justify-content-center">
@@ -36,38 +38,26 @@
         <div class="info">
           <div>
             <i class="fa fa-map-marker social-links"></i>
-            <p> Daerah Istimewa Yogyakarta</p>
+            <p>Kabupaten Karawang</p>
           </div>
 
           <div>
             <i class="fa fa-envelope social-links"></i>
-            <p><a href="mailto:admin@touche.id" target="_blank"> admin@touche.id</a></p>
+            <p><a href="mailto:pataka.nuswantara@gmail.com" target="_blank"> pataka.nuswantara@gmail.com</a></p>
           </div>
 
           <div>
             <i class="fa fa-phone"></i>
-            <p><a href="https://api.whatsapp.com/send?phone=6281328283875&text=&source=&data=&app_absent="
-                target="_blank"> 0813-2828-3875</a></a></p>
+            <p><a href="https://api.whatsapp.com/send?phone=6281282052959&text=&source=&data=&app_absent="
+                target="_blank"> 0812-8205-2959</a></a></p>
           </div>
-        </div>
-
-        <div class="social-links">
-          <a href="https://twitter.com/toucheid" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/toucheid/" target="_blank" class="instagram"><i
-              class="fab fa-instagram"></i></a>
-          <a href="https://open.spotify.com/show/7FRDkeRmefEX0cLCNgb7Y1?si=hNHZO1GTQBGvCJEc4LGOOg&dl_branch=1"
-            target="_blank" class="google-plus"><i class="fab fa-spotify"></i></a>
-          <a href="https://vt.tiktok.com/ZSJcRKen8/" target="_blank" class="google-plus"><i
-              class="fab fa-tiktok"></i></i></a>
-          <a href="https://www.linkedin.com/company/touch%C3%A9-development-center/" target="_blank" class="linkedin"><i
-              class="fab fa-linkedin"></i></a>
         </div>
 
       </div>
 
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSezgS1fPW85mnOlC4oDZqBrESSFpdHs8VsAXNokpc_jGicm_A/viewform?embedded=true"
-        width="640" height="855" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeoU8VOyNVubjE57jXvABqV-kbq9oaMlu9EoAFfa8tiQByiTA/viewform?embedded=true"
+        width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
 
 
     </div>

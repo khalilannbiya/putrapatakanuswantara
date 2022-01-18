@@ -157,8 +157,25 @@
 
   <script src="{{asset('user/lib/superfish/superfish.min.js')}}"></script>
 
-  <!-- Contact Form JavaScript File -->
-  {{-- <script src="{{asset('user/contactform/contactform.js')}}"></script> --}}
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+    function initialize() {
+  var propertiPeta = {
+     center: new google.maps.LatLng(-6.2946164773300115, 107.33227813439204),
+     zoom: 15,
+     mapTypeId: google.maps.MapTypeId.ROADMAP,
+  };
+
+  var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+
+  var marker = new google.maps.Marker({
+     position: new google.maps.LatLng(-6.2946164773300115, 107.33227813439204),
+     map: peta,
+  });
+}
+
+google.maps.event.addDomListener(window, "load", initialize);
+  </script>
 
   <!-- Template Main Javascript File -->
   <script src="{{asset('user/js/main.js')}}"></script>
