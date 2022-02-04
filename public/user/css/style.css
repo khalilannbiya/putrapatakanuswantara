@@ -14,6 +14,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background: #fff;
     color: #666666;
@@ -146,6 +147,7 @@ h6 {
     #header #logo h1 {
         font-size: 26px;
     }
+
     /* #header #logo img {
         max-height: 40px;
     } */
@@ -171,7 +173,7 @@ h6 {
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
-        
+
     }
 
     #header #logo img {
@@ -209,6 +211,7 @@ h6 {
     #category {
         margin-left: -25px;
     }
+
     /* #category .container {
         margin-left: 1.5px;
     } */
@@ -310,12 +313,12 @@ h6 {
     white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
     float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
     display: block;
 }
 
@@ -343,14 +346,15 @@ h6 {
     outline: none;
 }
 
-.nav-menu > li {
+.nav-menu>li {
     margin-left: 10px;
 }
-.color-font{
+
+.color-font {
     color: black;
 }
 
-.nav-menu > li > a:before {
+.nav-menu>li>a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -366,8 +370,8 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .menu-active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -430,6 +434,7 @@ h6 {
         width: 85px;
         height: 45px;
     }
+
     #mobile-nav-toggle {
         display: inline;
         font-size: 40px;
@@ -613,6 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #category {
         margin-left: -25px;
     }
+
     #category .container {
         margin-left: -7px;
     }
@@ -770,7 +776,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 15px;
 }
 
-.value__company{
+.value__company {
     margin-top: 5rem;
 }
 
@@ -921,6 +927,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #category .category-item:hover img {
     top: -30px;
 }
+
 /* Article Home Section
 --------------------------------*/
 #article {
@@ -986,7 +993,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #article .category-item .details {
     height: 50px;
-    background: #e9e5cc;
+    background: #B6CCFE;
     position: absolute;
     width: 100%;
     height: 50px;
@@ -1091,7 +1098,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-height: 100%;
 }
 
-.rounded-circle{
+.rounded-circle {
     width: 9rem;
 }
 
@@ -1259,12 +1266,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Maps */
-.maps__ppn{
+.maps__ppn {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
 }
-#googleMap{
+
+#googleMap {
     width: 80vw;
     height: 40vw;
 }
@@ -1314,6 +1322,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 1px solid lightgrey;
     margin-top: 1rem;
 }
+
 .kotak .header {
     background-color: #e9e5cc;
     padding: 20px;
@@ -1345,6 +1354,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .kotak .footer {
     padding: 10px;
 }
+
 .footer h3 {
     font-size: 1rem;
     font-weight: 500;
@@ -1392,10 +1402,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 60px 90px 90px 90px;
     background-color: #f7f7f7;
 }
+
 .card-box h4 {
     margin-top: 2rem;
     font-size: 1.5vw;
 }
+
 .full-img {
     background-position: center;
     background-repeat: no-repeat;
@@ -1476,24 +1488,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* section visi misi */
-.vision p, .mission p, .history{
-   text-align: justify;
+.vision p, .mission p, .history {
+    text-align: justify;
 }
-.vision, .history, .flex__organisasi{
+
+.vision, .history, .flex__organisasi {
     margin-top: 5rem;
 }
 
 /* section history */
 
-.history-section{
+.history-section {
     background-color: #fdfdfd !important;
 }
 
 /* Section Struktur organisasi */
-.struktur-organisasi{
+.struktur-organisasi {
     width: 50vw;
 }
-.flex__organisasi{
+
+.flex__organisasi {
     display: flex;
     justify-content: center;
 }
@@ -1504,6 +1518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Mobile Device */
 
 @media (max-width: 576px) {
+
     /* NAVBAR */
     #header #logo img {
         margin-top: 5px;
@@ -1625,7 +1640,8 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 12px;
         margin-top: 10px;
     }
-    .rounded-circle{
+
+    .rounded-circle {
         width: 20vw;
     }
 
@@ -1635,15 +1651,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     .card-header .btn {
         font-size: 3vw;
     }
+
     .card-header .btn .bi-chevron-down {
         /* display: none; */
         width: 5vw;
         height: 5vw;
     }
+
     .accordion-section {
         padding: 0 3rem;
         margin: 0 0 7rem 0;
     }
+
     .accordion-section .card-body {
         font-size: 3vw;
         text-align: justify;
@@ -1658,6 +1677,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         align-items: center;
         padding: 0;
     }
+
     .kotak {
         width: 65vw;
         height: 80vw;
@@ -1667,6 +1687,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         justify-content: space-between;
         border: 1px solid lightgrey;
     }
+
     .kotak .header {
         background-color: #e9e5cc;
         padding: 20px;
@@ -1677,21 +1698,25 @@ body.mobile-nav-active #mobile-nav-toggle {
         text-align: center;
         box-shadow: 0px 5px 26px -22px rgba(0, 0, 0, 0.75);
     }
+
     .header h2 {
         font-size: 4.5vw;
         display: flex;
         align-items: center;
         margin: 0;
     }
+
     .kotak .content p {
         font-size: 3vw;
         margin: 3vw 0 0 0;
         line-height: 2;
     }
+
     .footer h3 {
         font-size: 3vw;
         font-weight: 600;
     }
+
     .footer .btn-primary {
         padding: 1vw 3vw;
         color: #fdfdfd;
@@ -1706,9 +1731,11 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-top: 2rem;
         font-size: 4vw;
     }
+
     .header-consultation {
         font-size: 5vw;
     }
+
     .section-header .section-title {
         font-size: 5.5vw;
         color: #111;
@@ -1717,9 +1744,11 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-weight: 700;
         margin-bottom: 5px;
     }
+
     .section-description {
         font-size: 2.8vw;
     }
+
     .psikolog__flex {
         display: flex;
         flex-wrap: wrap;
@@ -1727,6 +1756,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         gap: 2rem;
         padding: 0 6rem;
     }
+
     .card-box {
         width: 64vw;
         height: 105vw;
@@ -1738,6 +1768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         box-shadow: 0px 0px 8px 0px #d4d4d4;
         transition: 0.5s;
     }
+
     .user-pic {
         width: 30vw;
         height: 30vw;
@@ -1751,10 +1782,12 @@ body.mobile-nav-active #mobile-nav-toggle {
         transform: rotate(-30deg);
         transition: 0.5s;
     }
+
     .card-box h6 {
         margin-top: 2rem;
         font-size: 3vw;
     }
+
     .card-box p {
         font-size: 2.7vw;
     }
@@ -1769,23 +1802,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 
     /* Section Visi & Misi */
-    #team{
-        padding:90px 10vw 90px 10vw ;
+    #team {
+        padding: 90px 10vw 90px 10vw;
     }
+
     .vision h2, .mission h2 {
         font-size: 5vw;
         font-weight: 600;
     }
-    .vision p, .mission p, .history p{
+
+    .vision p, .mission p, .history p {
         font-size: 2.5vw;
         line-height: 2;
     }
-    .vision, .history, .flex__organisasi{
+
+    .vision, .history, .flex__organisasi {
         margin-top: 3rem;
     }
 
     /* maps */
-    #googleMap{
+    #googleMap {
         width: 80vw;
         height: 60vw;
     }

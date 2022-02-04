@@ -26,8 +26,8 @@
 
 @section('hero')
 <h1>putra pataka nuswantara</h1>
-<a href="#testimonials" class="btn-get-started">
-  TESTIMONIALS</a>
+<a href="#article" class="btn-get-started">
+  Article</a>
 @endsection
 
 
