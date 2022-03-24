@@ -1,4 +1,4 @@
-<h1 align="center">Website Company Profile Travel Agent</h1>
+<h1 align="center">Website Company Profile</h1>
 
 <div align="center">
   <a href="#">
